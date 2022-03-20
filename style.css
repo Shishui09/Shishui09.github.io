@@ -1,0 +1,93 @@
+/* Titre */
+body {
+    padding: 5%;
+    background-image: url("https://www.gameit.es/wp-content/uploads/2020/04/inazuma-eleven-ares.jpg");
+    background-attachment: fixed;
+}
+
+header {
+    border: 5px solid orange;
+    background-color: rgb(255, 215, 0, 0.75);
+    text-align: center;
+    ;
+}
+
+header>h1 {
+    color: black;
+}
+
+/* Menu déroulant */
+
+div {
+    display: flex;
+}
+
+div div ul > li {
+    position: relative;
+    background-color:beige ;
+    line-height: 30px;
+    width: 100%;
+}
+
+div div ul ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position : absolute;
+    display: none;
+}
+
+li:hover {
+    background-color: yellow ;
+    display: block;
+}
+
+div div ul li:hover ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    z-index: 1000;
+
+}
+
+/* Décor */
+
+div div ul li {
+    display: relative;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: darkorange;
+}
+
+div div > ul {
+    width: 150px;
+    padding: 0;
+    border-top: 3px solid orange;
+    border-left: 3px solid orange;
+    border-bottom: 3px solid orange;
+}
+
+div div > p {
+    text-indent: 50px;
+    padding: 5px;
+    border: 3px solid orange;
+    background-color:rgb(255,255,255, 0.8) ;
+}
+
+#ThanksTo {
+    text-align: right;
+}
+
+#imageGO {
+    flex-direction: column;
+}
+
+#centrer2 {
+    border: 3px solid orange;
+    width: 425px;
+}
